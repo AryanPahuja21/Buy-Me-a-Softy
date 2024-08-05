@@ -1,7 +1,9 @@
+import BuyForm from "./components/BuyForm";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello World!</h1>
+    <div className="bg-emerald-300">
+      <BuyForm />
     </div>
   );
 };
